@@ -10,7 +10,7 @@ var ToySchema = mongoose.Schema({
     },
     category: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'categories' // 'brands': collection
+        ref: 'categories' // 'categories': collection
     }
 });
 
